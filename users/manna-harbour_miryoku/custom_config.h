@@ -55,29 +55,11 @@
     KC_Z,              KC_X,              KC_C,              KC_V,              KC_B,              	KC_N,              KC_M,              KC_COMM,           KC_DOT,            KC_SLSH,           \
     U_NP,              U_NP,              KC_ESC,            KC_SPC,            LT(U_MOUSE,KC_TAB),	KC_ENT,            KC_BSPC,           KC_DEL,            U_NP,              U_NP \
 
-#define MIRYOKU_LAYER_BUTTON \
-    U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
-    KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           U_NU,              U_NU,              KC_LSFT,           KC_LCTL,           KC_LALT,           KC_LGUI,           \
-    U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
-    U_NP,              U_NP,              KC_BTN3,           KC_BTN1,           KC_BTN2,           KC_BTN2,           KC_BTN1,           KC_BTN3,           U_NP,              U_NP \
-
-#define MIRYOKU_LAYER_NAV \
-    TD(U_TD_BOOT),     TD(U_TD_U_TAP),    TD(U_TD_U_EXTRA),  TD(U_TD_U_BASE),   U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
-    KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           U_NA,              KC_LEFT,           KC_DOWN,           KC_UP,             KC_RGHT,           KC_CAPS,           \
-    U_NA,              KC_ALGR,           TD(U_TD_U_NUM),    TD(U_TD_U_NAV),    U_NA,              KC_HOME,           KC_PGDN,           KC_PGUP,           KC_END,            KC_INS,            \
-    U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC_ENT,            KC_BSPC,           KC_DEL,            U_NP,              U_NP \
-
 #define MIRYOKU_LAYER_MOUSE \
     TD(U_TD_BOOT),     TD(U_TD_U_TAP),    TD(U_TD_U_EXTRA),  TD(U_TD_U_BASE),   U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
     KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           U_NA,              KC_MS_L,           KC_MS_D,           KC_MS_U,           KC_MS_R,           U_NU,              \
     U_NA,              KC_ALGR,           TD(U_TD_U_SYM),    TD(U_TD_U_MOUSE),  U_NA,              KC_WH_L,           KC_WH_D,           KC_WH_U,           KC_WH_R,           U_NU,              \
     U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC_BTN2,           KC_BTN1,           KC_BTN3,           U_NP,              U_NP              \
-
-#define MIRYOKU_LAYER_MEDIA \
-    TD(U_TD_BOOT),     TD(U_TD_U_TAP),    TD(U_TD_U_EXTRA),  TD(U_TD_U_BASE),   U_NA,              RGB_TOG,           RGB_MOD,           RGB_HUI,           RGB_SAI,           RGB_VAI,           \
-    KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           U_NA,              U_NU,              KC_MPRV,           KC_VOLD,           KC_VOLU,           KC_MNXT,           \
-    U_NA,              KC_ALGR,           TD(U_TD_U_FUN),    TD(U_TD_U_MEDIA),  U_NA,              OU_AUTO,           U_NU,              U_NU,              U_NU,              U_NU,              \
-    U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC_MSTP,           KC_MPLY,           KC_MUTE,           U_NP,              U_NP \
 
 #define MIRYOKU_LAYER_NUM \
     KC_LBRC,           KC_7,              KC_8,              KC_9,              KC_RBRC,           U_NA,              KC_RALT,           TD(U_TD_U_EXTRA),  TD(U_TD_U_TAP),    TD(U_TD_BOOT),     \
@@ -86,7 +68,7 @@
     U_NP,              U_NP,              ES_LABK,           KC_0,              ES_MINS,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP \
 
 #define MIRYOKU_LAYER_SYM \
-    ALGR(ES_ACUT),     ES_AMPR,           ES_ASTR,           ES_LPRN,           ALGR(ES_CCED),           U_NA,              TD(U_TD_U_BASE),   TD(U_TD_U_EXTRA),  TD(U_TD_U_TAP),    TD(U_TD_BOOT),     \
+    ALGR(ES_ACUT),     ES_SLSH,           ES_ASTR,           ES_LPRN,           ALGR(ES_CCED),           U_NA,              TD(U_TD_U_BASE),   TD(U_TD_U_EXTRA),  TD(U_TD_U_TAP),    TD(U_TD_BOOT),     \
     ES_LBRC,           ES_DLR,            ES_EURO,           ES_NOT,            ES_RBRC,                  U_NA,              KC_LSFT,           KC_LCTL,           KC_LALT,           KC_LGUI,           \
     ES_TILD,           ES_PIPE,           ES_AT,             ES_HASH,           ES_BSLS,                 U_NA,              TD(U_TD_U_SYM),    TD(U_TD_U_MOUSE),  KC_ALGR,           U_NA,              \
     U_NP,              U_NP,              ES_LPRN,           ES_RPRN,           ES_UNDS,                 U_NA,              U_NA,              U_NA,              U_NP,              U_NP \
@@ -98,6 +80,7 @@
     U_NP,              U_NP,              KC_APP,            KC_SPC,            KC_TAB,            U_NA,              U_NA,              U_NA,              U_NP,              U_NP \
 
 // Lumberjack
+#if defined (KEYBOARD_peej_lumberjack)
 
 #define MIRYOKU_LAYERMAPPING_TAP(\
         K00,   K01,   K02,   K03,   K04,                 K05,   K06,   K07,   K08,   K09,\
@@ -112,3 +95,5 @@
     	KC_LSFT,  K20,     K21,	     K22,    K23,    K24,         K25,    K26,    K27,    K28,    K29,    XXX, \
     	KC_LCTL,  KC_LGUI, KC_LALT,  K32,    K33,    K34,         K35,    K36,    K37,    XXX,    XXX,    XXX \
 	)
+
+#endif
