@@ -6,6 +6,7 @@
 #include QMK_KEYBOARD_H
 
 #include "manna-harbour_miryoku.h"
+#include "keymap_spanish.h"
 
 
 // Additional Features double tap guard
