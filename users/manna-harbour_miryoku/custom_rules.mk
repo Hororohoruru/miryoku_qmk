@@ -2,3 +2,5 @@
 # https://github.com/manna-harbour/miryoku
 
 RGBLIGHT_ENABLE = yes
+
+SPLIT_KEYBOARD = no
