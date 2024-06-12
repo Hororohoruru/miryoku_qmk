@@ -66,7 +66,7 @@
 TD(U_TD_BOOT),     TD(U_TD_U_TAP),    TD(U_TD_U_EXTRA),  TD(U_TD_U_BASE),   U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           U_NA,              KC_LEFT,           KC_DOWN,           KC_UP,             KC_RGHT,           KC_CAPS,           \
 U_NA,              KC_ALGR,           TD(U_TD_U_NUM),    TD(U_TD_U_NAV),    U_NA,              KC_HOME,           KC_PGDN,           KC_PGUP,           KC_END,            KC_INS,            \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC_ENT,            KC_BSPC,           KC_DEL,            U_NP,              U_NP
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC_ENT,            KC_BSPC,           KC_DEL,            U_NP,              U_NP 	      \
 
 #define MIRYOKU_LAYER_NUM \
     KC_LBRC,           KC_7,              KC_8,              KC_9,              KC_RBRC,           U_NA,              TD(U_TD_U_BASE),   TD(U_TD_U_EXTRA),  TD(U_TD_U_TAP),    TD(U_TD_BOOT),     \
@@ -86,12 +86,6 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
     KC_F10,            KC_F1,             KC_F2,             KC_F3,             KC_PAUS,           U_NA,              TD(U_TD_U_FUN),    TD(U_TD_U_MEDIA),  KC_ALGR,           U_NA,              \
     U_NP,              U_NP,              KC_APP,            KC_SPC,            KC_TAB,            U_NA,              U_NA,              U_NA,              U_NP,              U_NP \
 
-#define MIRYOKU_LAYER_NAV \
-    TD(U_TD_BOOT),     TD(U_TD_U_TAP),    TD(U_TD_U_EXTRA),  TD(U_TD_U_BASE),   U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
-    KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           U_NA,              KC_LEFT,           KC_DOWN,           KC_UP,             KC_RGHT,           CW_TOGG,           \
-    U_NA,              KC_ALGR,           TD(U_TD_U_NUM),    TD(U_TD_U_NAV),    U_NA,              KC_HOME,           KC_PGDN,           KC_PGUP,           KC_END,            KC_INS,            \
-    U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC_ENT,            KC_BSPC,           KC_DEL,            U_NP,              U_NP
-
 // Lumberjack
 #if defined (KEYBOARD_peej_lumberjack)
 
@@ -106,7 +100,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
         KC_TAB,   K00,     K01,      K02,    K03,    K04,         K05,    K06,    K07,    K08,    K09,    XXX, \
     	KC_CAPS,  K10,     K11,      K12,    K13,    K14,         K15,    K16,    K17,    K18,    K19,    XXX, \
     	KC_LSFT,  K20,     K21,	     K22,    K23,    K24,         K25,    K26,    K27,    K28,    K29,    XXX, \
-    	KC_LCTL,  KC_LGUI, KC_LALT,  K32,    K33,    K34,         K35,    K36,    K37,    XXX,    XXX,    XXX \
+    	KC_LCTL,  KC_LGUI, K32,  KC_LALT,    K33,    K34,         K35,    K36,    K37,    XXX,    XXX,    XXX \
 	)
 
 #endif
