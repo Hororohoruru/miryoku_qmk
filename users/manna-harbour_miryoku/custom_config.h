@@ -99,11 +99,11 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
         N30,   N31,   K32,   K33,   K34,                 K35,   K36,   K37,   N38,   N39\
         )\
 	LAYOUT_ortho_5x12( \
-    	KC_ESC,   KC_1,    KC_2,     KC_3,   KC_4,   KC_5,        KC_6,   KC_7,   KC_8,   KC_9,   KC_0,   XXX, \
-        KC_TAB,   K00,     K01,      K02,    K03,    K04,         K05,    K06,    K07,    K08,    K09,    XXX, \
-    	KC_CAPS,  K10,     K11,      K12,    K13,    K14,         K15,    K16,    K17,    K18,    K19,    XXX, \
-    	KC_LSFT,  K20,     K21,	     K22,    K23,    K24,         K25,    K26,    K27,    K28,    K29,    XXX, \
-    	KC_LCTL,  KC_LGUI, K32,  KC_LALT,    K33,    K34,         K35,    K36,    K37,    XXX,    XXX,    XXX \
+    	KC_ESC,   KC_1,    KC_2,     KC_3,   KC_4,   KC_5,        KC_6,   KC_7,   KC_8,   KC_9,    KC_0,    K29, \
+        KC_TAB,   K00,     K01,      K02,    K03,    K04,         K05,    K06,    K07,    K08,     K09,     KC_TAB, \
+    	KC_CAPS,  K10,     K11,      K12,    K13,    K14,         K15,    K16,    K17,    K18,     K19,     KC_CAPS, \
+    	KC_LSFT,  K20,     K21,	     K22,    K23,    K24,         K25,    K26,    K27,    K28,     KC_UP,   KC_RSFT, \
+    	KC_LCTL,  KC_LGUI, K32,  KC_LALT,    K33,    K34,         K35,    K36,    K37,    KC_LEFT, KC_DOWN, KC_RIGHT \
 	)
 
 #endif
